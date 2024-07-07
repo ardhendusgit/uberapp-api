@@ -12,5 +12,5 @@ module "vpc" {
 
   enable_nat_gateway   = false
   enable_dns_hostnames = true
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = true # Important to set this to true as this enables the nodes to have a public IP and hence communicate with the API Server/Control Plane created by EKS
 }

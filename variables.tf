@@ -9,6 +9,8 @@ variable "region" {
   default     = "us-east-2"
 }
 
+# Mention the subnet ID's of the subnets created by your VPC
+
 variable "subnet_id_1" {
   type = string
   default = "subnet-08a0c7d54b4ff50b2"

@@ -24,5 +24,5 @@ Terraform code has been modified for the following tasks:
 - Terraform installed on your local machine.
 - Kubernetes CLI (`kubectl`) installed on your local machine.
 
-- ## Contributions
+## Contributions
 Contributions are welcome! Please create a pull request with your changes.
